@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200.04" viewBox="0 0 200 200.04">
+  <g id="Component_8_1" data-name="Component 8 – 1" transform="translate(0 0.04)">
+    <g id="Ellipse_3" data-name="Ellipse 3" transform="translate(12 16)" fill="#fff" stroke="#707070" stroke-width="1">
+      <ellipse cx="87.5" cy="85" rx="87.5" ry="85" stroke="none"/>
+      <ellipse cx="87.5" cy="85" rx="87" ry="84.5" fill="none"/>
+    </g>
+    <rect id="Rectangle_237" data-name="Rectangle 237" width="200" height="200" fill="none"/>
+    <g id="Group_166" data-name="Group 166" transform="translate(0 0.002)">
+      <g id="Group_165" data-name="Group 165" transform="translate(0 0)">
+        <path id="Path_16" data-name="Path 16" d="M0,0V100" transform="translate(100.1 49.962)" fill="#00a9de" stroke="#000" stroke-width="15"/>
+        <g id="Path_15" data-name="Path 15" transform="translate(0 3.259) rotate(-0.974)">
+          <path id="Path_10" data-name="Path 10" d="M98.258.041A98.155,98.155,0,1,1,.042,98.155,98.306,98.306,0,0,1,98.258.041Z" transform="translate(0 0)" fill="rgba(0,0,0,0)"/>
+          <path id="Path_11" data-name="Path 11" d="M98.264,14.668C52.356,14.649,15.022,52.1,15.042,98.161S52.427,181.7,98.336,181.722s83.242-37.436,83.223-83.493S144.173,14.687,98.264,14.668M98.258.041A98.155,98.155,0,1,1,.042,98.155,98.306,98.306,0,0,1,98.258.041Z" transform="translate(0 0)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

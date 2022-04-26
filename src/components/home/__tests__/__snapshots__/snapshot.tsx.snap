@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <header
+      class="header"
+      data-testid="header"
+    >
+      <nav
+        class="navbar"
+      >
+        <a
+          class="navlogo"
+          href="/"
+        >
+          [Logo]
+        </a>
+        <ul
+          class="navmenu"
+        >
+          <li
+            class="navitem"
+          >
+            <a
+              class="navlink"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li
+            class="navitem"
+          >
+            <a
+              class="navlink"
+              href="/#"
+            >
+              About
+            </a>
+          </li>
+        </ul>
+        <button
+          class="hamburger"
+        >
+          <span
+            class="bar"
+          />
+          <span
+            class="bar"
+          />
+          <span
+            class="bar"
+          />
+        </button>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1
+          class="title"
+        >
+          NextJS Starter Template 
+        </h1>
+        <p
+          class="description"
+        >
+          Scalable, maintainable with focus on simplicity and best practices.
+          <br />
+          Pre-configured with the following
+        </p>
+        <div
+          class="grid"
+        >
+          <a
+            class="card"
+            href="https://www.typescriptlang.org"
+          >
+            <h3>
+              Typescript →
+            </h3>
+            <p>
+              TypeScript is JavaScript with syntax for typesI.
+            </p>
+          </a>
+          <a
+            class="card"
+            href="https://jestjs.io"
+          >
+            <h3>
+              Jest →
+            </h3>
+            <p>
+              For unit and component testing experience
+            </p>
+          </a>
+          <a
+            class="card"
+            href="https://www.cypress.io/"
+          >
+            <h3>
+              Cypress →
+            </h3>
+            <p>
+              For complete end-to-end testing experience
+            </p>
+          </a>
+          <a
+            class="card"
+            href="https://typicode.github.io/husky"
+          >
+            <h3>
+              Husky →
+            </h3>
+            <p>
+              Husky improves your commits and more 🐶 woof!
+            </p>
+          </a>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="footer"
+      data-testid="footer"
+    >
+      Copyright @ 
+      2022
+    </footer>
+  </div>
+</div>
+`;
