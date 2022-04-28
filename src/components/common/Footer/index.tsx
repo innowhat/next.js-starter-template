@@ -1,8 +1,9 @@
-import styles from './footer.module.css'
-
 const Footer = () => {
   return (
-    <footer className={styles.footer} data-testid="footer">
+    <footer
+      className="flex h-24 w-full items-center justify-center border-t"
+      data-testid="footer"
+    >
       Copyright @ {new Date().getFullYear()}
     </footer>
   )
