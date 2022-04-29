@@ -1,10 +1,15 @@
-import styles from './footer.module.css'
+import { Container, Typography } from '@mui/material'
+import Box from '@mui/material/Box'
 
 const Footer = () => {
   return (
-    <footer className={styles.footer} data-testid="footer">
-      Copyright @ {new Date().getFullYear()}
-    </footer>
+    <Box component="footer" data-testid="footer" sx={{ py: 5, mt: 5 }}>
+      <Container>
+        <Typography align="center">
+          Copyright @ {new Date().getFullYear()}
+        </Typography>
+      </Container>
+    </Box>
   )
 }
 

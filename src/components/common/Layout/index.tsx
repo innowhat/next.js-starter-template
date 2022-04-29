@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import styles from './layout.module.css'
 import Header from '../Header'
 import Footer from '../Footer'
+import Box from '@mui/material/Box'
 
 interface LayoutProps {
   children: React.ReactNode
@@ -9,15 +9,17 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>Next.js Project Starter Template</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main>{children}</main>
+      <Box component="main" minHeight="80vh">
+        {children}
+      </Box>
       <Footer />
-    </div>
+    </>
   )
 }
 

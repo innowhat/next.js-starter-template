@@ -2,132 +2,199 @@
 
 exports[`renders homepage unchanged 1`] = `
 <div>
-  <div
-    class="container"
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorDefault MuiAppBar-positionStatic css-xqhexu-MuiPaper-root-MuiAppBar-root"
+    data-testid="header"
   >
-    <header
-      class="header"
-      data-testid="header"
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
     >
-      <nav
-        class="navbar"
+      <div
+        class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
       >
-        <a
-          class="navlogo"
-          href="/"
-        >
-          [Logo]
-        </a>
-        <ul
-          class="navmenu"
-        >
-          <li
-            class="navitem"
-          >
-            <a
-              class="navlink"
-              href="/"
-            >
-              Home
-            </a>
-          </li>
-          <li
-            class="navitem"
-          >
-            <a
-              class="navlink"
-              href="/#"
-            >
-              About
-            </a>
-          </li>
-        </ul>
         <button
-          class="hamburger"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-1l0kr7o-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
         >
+          [LOGO]
           <span
-            class="bar"
-          />
-          <span
-            class="bar"
-          />
-          <span
-            class="bar"
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
           />
         </button>
-      </nav>
-    </header>
-    <main>
-      <div>
-        <h1
-          class="title"
+        <div
+          class="MuiTypography-root MuiTypography-h6 css-1juivf6-MuiTypography-root"
+        />
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textInherit MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorInherit MuiButtonBase-root  css-1y942vo-MuiButtonBase-root-MuiButton-root"
+          tabindex="0"
+          type="button"
         >
-          NextJS Starter Template 
+          HOME
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+        <span
+          class="MuiSwitch-root MuiSwitch-sizeMedium css-julti5-MuiSwitch-root"
+        >
+          <span
+            class="MuiSwitch-switchBase MuiSwitch-colorPrimary MuiButtonBase-root MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-root css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase"
+          >
+            <input
+              class="MuiSwitch-input PrivateSwitchBase-input css-1m9pwf3"
+              type="checkbox"
+            />
+            <span
+              class="MuiSwitch-thumb css-jsexje-MuiSwitch-thumb"
+            />
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </span>
+          <span
+            class="MuiSwitch-track css-1yjjitx-MuiSwitch-track"
+          />
+        </span>
+      </div>
+    </div>
+  </header>
+  <main
+    class="MuiBox-root css-9hh926"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthMd css-xdmu94-MuiContainer-root"
+    >
+      <div
+        class="MuiBox-root css-l034w2"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h1 MuiTypography-gutterBottom css-a4d0r7-MuiTypography-root"
+        >
+          NextJS Starter Template
         </h1>
         <p
-          class="description"
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
         >
-          Scalable, maintainable with focus on simplicity and best practices.
-          <br />
-          Pre-configured with the following
+           Scalable, maintainable with focus on simplicity and best practices. Pre-configured with.
         </p>
+      </div>
+      <div
+        class="MuiBox-root css-i9gxme"
+      >
         <div
-          class="grid"
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
         >
-          <a
-            class="card"
-            href="https://www.typescriptlang.org"
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-lth2tj-MuiGrid-root"
           >
-            <h3>
-              Typescript →
-            </h3>
-            <p>
-              TypeScript is JavaScript with syntax for typesI.
-            </p>
-          </a>
-          <a
-            class="card"
-            href="https://jestjs.io"
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1e37yss-MuiPaper-root-MuiCard-root"
+            >
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                href="https://www.typescriptlang.org"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+                >
+                  Typescript
+                </h4>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  TypeScript is JavaScript with syntax for typesI.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-lth2tj-MuiGrid-root"
           >
-            <h3>
-              Jest →
-            </h3>
-            <p>
-              For unit and component testing experience
-            </p>
-          </a>
-          <a
-            class="card"
-            href="https://www.cypress.io/"
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1e37yss-MuiPaper-root-MuiCard-root"
+            >
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                href="https://jestjs.io"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+                >
+                  Jest
+                </h4>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  For unit and component testing experience
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-lth2tj-MuiGrid-root"
           >
-            <h3>
-              Cypress →
-            </h3>
-            <p>
-              For complete end-to-end testing experience
-            </p>
-          </a>
-          <a
-            class="card"
-            href="https://typicode.github.io/husky"
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1e37yss-MuiPaper-root-MuiCard-root"
+            >
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                href="https://www.cypress.io/"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+                >
+                  Cypress
+                </h4>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  For complete end-to-end testing experience
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-lth2tj-MuiGrid-root"
           >
-            <h3>
-              Husky →
-            </h3>
-            <p>
-              Husky improves your commits and more 🐶 woof!
-            </p>
-          </a>
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1e37yss-MuiPaper-root-MuiCard-root"
+            >
+              <div
+                class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                href="https://typicode.github.io/husky"
+              >
+                <h4
+                  class="MuiTypography-root MuiTypography-h4 css-5lbw0b-MuiTypography-root"
+                >
+                  Husky
+                </h4>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Husky improves your commits and more 🐶 woof!
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </main>
-    <footer
-      class="footer"
-      data-testid="footer"
+    </div>
+  </main>
+  <footer
+    class="MuiBox-root css-1adr1lo"
+    data-testid="footer"
+  >
+    <div
+      class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
     >
-      Copyright @ 
-      2022
-    </footer>
-  </div>
+      <p
+        class="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter css-1uwgr7b-MuiTypography-root"
+      >
+        Copyright @ 
+        2022
+      </p>
+    </div>
+  </footer>
 </div>
 `;
