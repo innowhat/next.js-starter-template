@@ -12,7 +12,7 @@ const Header = () => {
     <header className={styles.header} data-testid="header">
       <nav className={styles.navbar}>
         <Link href="/">
-          <a className={styles.navlogo}>[Logo]</a>
+          <a className={styles.navlogo}>🐻</a>
         </Link>
         <ul
           className={

@@ -16,7 +16,7 @@ exports[`renders homepage unchanged 1`] = `
           class="navlogo"
           href="/"
         >
-          [Logo]
+          🐻
         </a>
         <ul
           class="navmenu"
