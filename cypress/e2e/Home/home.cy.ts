@@ -1,4 +1,6 @@
 // cypress/integration/app.spec.js
+/// <reference types="cypress" />
+
 
 describe('Homepage', () => {
   it('home page', () => {
