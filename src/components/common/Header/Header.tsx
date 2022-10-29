@@ -11,8 +11,8 @@ const Header: FC<HeaderProps> = () => {
   return (
     <header className={styles.header} data-testid="header">
       <nav className={styles.navbar}>
-        <Link href="/">
-          <a className={styles.navlogo}>🐻</a>
+        <Link href="/" className={styles.navlogo}>
+          🐻
         </Link>
         <ul
           className={
@@ -22,31 +22,29 @@ const Header: FC<HeaderProps> = () => {
           }
         >
           <li className={styles.navitem}>
-            <Link href="/">
-              <a
-                className={
-                  isOpen === false
-                    ? styles.navlink
-                    : styles.navlink + ' ' + styles.active
-                }
-                onClick={openMenu}
-              >
-                Home
-              </a>
+            <Link
+              href="/"
+              className={
+                isOpen === false
+                  ? styles.navlink
+                  : styles.navlink + ' ' + styles.active
+              }
+              onClick={openMenu}
+            >
+              Home
             </Link>
           </li>
           <li className={styles.navitem}>
-            <Link href="#">
-              <a
-                className={
-                  isOpen === false
-                    ? styles.navlink
-                    : styles.navlink + ' ' + styles.active
-                }
-                onClick={openMenu}
-              >
-                About
-              </a>
+            <Link
+              href="#"
+              className={
+                isOpen === false
+                  ? styles.navlink
+                  : styles.navlink + ' ' + styles.active
+              }
+              onClick={openMenu}
+            >
+              About
             </Link>
           </li>
         </ul>
