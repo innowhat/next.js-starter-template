@@ -759,7 +759,7 @@
     "lodash" "^4.17.15"
     "redent" "^3.0.0"
 
-"@testing-library/react@*", "@testing-library/react@^13.3.0":
+"@testing-library/react@^13.3.0":
   "integrity" "sha512-DB79aA426+deFgGSjnf5grczDPiL4taK3hFaa+M5q7q20Kcve9eQottOG5kZ74KEr55v0tU2CQormSSDK87zYQ=="
   "resolved" "https://registry.npmjs.org/@testing-library/react/-/react-13.3.0.tgz"
   "version" "13.3.0"
@@ -952,19 +952,12 @@
   "resolved" "https://registry.npmjs.org/@types/stack-utils/-/stack-utils-2.0.1.tgz"
   "version" "2.0.1"
 
-"@types/testing-library__jest-dom@^5.14.5", "@types/testing-library__jest-dom@^5.9.1":
+"@types/testing-library__jest-dom@^5.9.1":
   "integrity" "sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ=="
   "resolved" "https://registry.npmjs.org/@types/testing-library__jest-dom/-/testing-library__jest-dom-5.14.5.tgz"
   "version" "5.14.5"
   dependencies:
     "@types/jest" "*"
-
-"@types/testing-library__react@^10.2.0":
-  "integrity" "sha512-KbU7qVfEwml8G5KFxM+xEfentAAVj/SOQSjW0+HqzjPE0cXpt0IpSamfX4jGYCImznDHgQcfXBPajS7HjLZduw=="
-  "resolved" "https://registry.npmjs.org/@types/testing-library__react/-/testing-library__react-10.2.0.tgz"
-  "version" "10.2.0"
-  dependencies:
-    "@testing-library/react" "*"
 
 "@types/tough-cookie@*":
   "integrity" "sha512-Q5vtl1W5ue16D+nIaW8JWebSSraJVlK+EthKn7e7UcD4KWsaSJ8BqGPXNaPghgtcn/fhvrN17Tv8ksUsQpiplw=="
